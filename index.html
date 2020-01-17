@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/1efdf409c1.js" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="nav">
+            <div class="container">
+                <a href="#" class="logo"><img src="img/Logo.png" alt="logo"></a>
+                <ul class="nav__menu">
+                    <li class="menu__item"><a href="#header">ABOUT US</a></li>
+                    <li class="menu__item"><a href="#whatwedosec">PROJECTS</a></li>
+                    <li class="menu__item"><a href="#news">NEWS</a></li>
+                    <li class="menu__item"><a href="#map">CONTACT</a></li>
+                </ul>
+                <ul class="nav__socials">
+                    <li class="socials__item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="socials__item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="socials__item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__slider"
+            data-slick='{
+            "arrows" : false,
+            "dots" : true,
+            "infinite" : true,
+            "speed" : 7000,
+            "autoplay" : true,
+            "vertical" : true,
+            "verticalSwiping" : true
+            }'>
+            <div class="slider__slide">
+                <section class="section section--bg" style="background-image: url(img/coverbg.jpg);">
+                    <div class="container">
+                        <h1 class="slide__title">Simple & mordern 1</h1>
+                        <div class="slide__subtitle">We make the world's beautiful every day 1</div>
+                    </div>
+                </section>
+            </div>
+            <div class="slider__slide">
+                <section class="section section--bg" style="background-image: url(img/coverbg.jpg);">
+                    <div class="container">
+                        <h1 class="slide__title">Simple & mordern 2</h1>
+                        <div class="slide__subtitle">We make the world's beautiful every day 2</div>
+                    </div>
+                </section>
+            </div>
+            <div class="slider__slide">
+                <section class="section section--bg" style="background-image: url(img/coverbg.jpg);">
+                    <div class="container">
+                        <h1 class="slide__title">Simple & mordern 3</h1>
+                        <div class="slide__subtitle">We make the world's beautiful every day 3</div>
+                    </div>
+                </section>
+            </div>
+            <div class="slider__slide">
+                <section class="section section--bg" style="background-image: url(img/coverbg.jpg);">
+                    <div class="container">
+                        <h1 class="slide__title">Simple & mordern 4</h1>
+                        <div class="slide__subtitle">We make the world's beautiful every day 4</div>
+                    </div>
+                </section>
+            </div>
+            <div class="slider__slide">
+                <section class="section section--bg" style="background-image: url(img/coverbg.jpg);">
+                    <div class="container">
+                        <h1 class="slide__title">Simple & mordern 5</h1>
+                        <div class="slide__subtitle">We make the world's beautiful every day 5</div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="scroll"><a href="#whatwedosec"><i class="fas fa-angle-down"></i></a></div>
+    </header>
+    <main>
+        <section class="section section--main" id="whatwedosec">
+            <div class="container">
+                <h2 class="section__title section__title--main">WHAT WE DO</h2>
+                <div class="section" id="whatwedo">
+                    <div class="section__part-pics">
+                        <div class="background" style="background: #55b7ff; left: 0;"></div>
+                        <div class="mainpic"><img src="img/fsec.jpg" alt="#" id="1pic" class="picture"></div>
+                    </div>
+                    <div class="section__part-text">
+                        <div class="section__subtitle">One World</div>
+                        <h2 class="section__title">Trade Center</h2>
+                        <p class="section__text">Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</p>
+                        <a href="#" class="btn">MORE DETAILS</a>
+                        <div class="section__address"><i class="fas fa-map-marker-alt"></i> New York City, United States - 1776 feet</div>
+                    </div>
+                </div>
+                <div class="section" id="whatwedo">
+                    <div class="section__part-text">
+                        <div class="section__subtitle">International</div>
+                        <h2 class="section__title">Commerce Centre</h2>
+                        <p class="section__text">Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.</p>
+                        <a href="#" class="btn">MORE DETAILS</a>
+                        <div class="section__address"><i class="fas fa-map-marker-alt"></i> Hong Kong - 1588 Feet</div>
+                    </div>
+                    <div class="section__part-pics">
+                        <div class="background" style="background: #7e5aff; right: 0;"></div>
+                        <div class="mainpic"><img src="img/ssec.jpg" alt="#" id="2pic" class="picture"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section--main section--bg" id="news" style="background-image: url(img/news/newsbg.jpg);">
+        <div class="container">
+            <h2 class="section__title section__title--main section__title--white">latest news</h2>
+            <div class="news__slider" 
+                data-slick='{
+                "arrows" : true,
+                "dots" : true,
+                "infinite" : true,
+                "speed" : 3000,
+                "autoplay" : true,
+                "slidesToShow" : 3,
+                "swipeToSlide" : true
+                }'>
+                <div class="news__slide">
+                    <div class="img__wrap"><img src="img/news/lauren-mancke-60633news.jpg" alt="#" class="news__img"></div>
+                    <div class="slide__card">
+                        <h3 class="news__title">See The Unmatched Beauty Of The Great. Lakes.</h3>
+                        <p class="news__text">Free directories: directories are perfect for customers that are... searching for a </p>
+                        <div class="author__wrap"><img src="img/authors/photos-13323rs3Du9xyQ3KR.png" alt="#" class="author__photo"></div>
+                        <h4 class="author__name">Isaac Dunn</h4>
+                        <time class="news__date" datetime="2017-02-09">09 Feb 2017</time>
+                    </div>
+                </div>
+                <div class="news__slide">
+                    <div class="img__wrap"><img src="img/news/lauren-mancke-60633news.jpg" alt="#" class="news__img"></div>
+                    <div class="slide__card">
+                        <h3 class="news__title">See The Unmatched Beauty Of The Great. Lakes.</h3>
+                        <p class="news__text">Free directories: directories are perfect for customers that are... searching for a </p>
+                        <div class="author__wrap"><img src="img/authors/photos-13323rs3Du9xyQ3KR.png" alt="#" class="author__photo"></div>
+                        <h4 class="author__name">Isaac Dunn</h4>
+                        <time class="news__date" datetime="2017-02-09">09 Feb 2017</time>
+                    </div>
+                </div>
+                <div class="news__slide">
+                    <div class="img__wrap"><img src="img/news/lauren-mancke-60633news.jpg" alt="#" class="news__img"></div>
+                    <div class="slide__card">
+                        <h3 class="news__title">See The Unmatched Beauty Of The Great. Lakes.</h3>
+                        <p class="news__text">Free directories: directories are perfect for customers that are... searching for a </p>
+                        <div class="author__wrap"><img src="img/authors/photos-13323rs3Du9xyQ3KR.png" alt="#" class="author__photo"></div>
+                        <h4 class="author__name">Isaac Dunn</h4>
+                        <time class="news__date" datetime="2017-02-09">09 Feb 2017</time>
+                    </div>
+                </div>
+                <div class="news__slide">
+                    <div class="img__wrap"><img src="img/news/lauren-mancke-60633news.jpg" alt="#" class="news__img"></div>
+                    <div class="slide__card">
+                        <h3 class="news__title">See The Unmatched Beauty Of The Great. Lakes.</h3>
+                        <p class="news__text">Free directories: directories are perfect for customers that are... searching for a </p>
+                        <div class="author__wrap"><img src="img/authors/photos-13323rs3Du9xyQ3KR.png" alt="#" class="author__photo"></div>
+                        <h4 class="author__name">Isaac Dunn</h4>
+                        <time class="news__date" datetime="2017-02-09">09 Feb 2017</time>
+                    </div>
+                </div>
+                <div class="news__slide">
+                    <div class="img__wrap"><img src="img/news/lauren-mancke-60633news.jpg" alt="#" class="news__img"></div>
+                    <div class="slide__card">
+                        <h3 class="news__title">See The Unmatched Beauty Of The Great. Lakes.</h3>
+                        <p class="news__text">Free directories: directories are perfect for customers that are... searching for a </p>
+                        <div class="author__wrap"><img src="img/authors/photos-13323rs3Du9xyQ3KR.png" alt="#" class="author__photo"></div>
+                        <h4 class="author__name">Isaac Dunn</h4>
+                        <time class="news__date" datetime="2017-02-09">09 Feb 2017</time>
+                    </div>
+                </div>
+                <div class="news__slide">
+                    <div class="img__wrap"><img src="img/news/lauren-mancke-60633news.jpg" alt="#" class="news__img"></div>
+                    <div class="slide__card">
+                        <h3 class="news__title">See The Unmatched Beauty Of The Great. Lakes.</h3>
+                        <p class="news__text">Free directories: directories are perfect for customers that are... searching for a </p>
+                        <div class="author__wrap"><img src="img/authors/photos-13323rs3Du9xyQ3KR.png" alt="#" class="author__photo"></div>
+                        <h4 class="author__name">Isaac Dunn</h4>
+                        <time class="news__date" datetime="2017-02-09">09 Feb 2017</time>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow" id="arrowleft"><a href="#" class="arrowlink"><i class="fas fa-angle-left"></i></a></div>
+            <div class="arrow" id="arrowright"><a href="#" class="arrowlink"><i class="fas fa-angle-right"></i></a></div>
+        </div>
+        </section>
+        <section class="section section--main" id="gallery">
+            <div class="container">
+                <h2 class="section__title section__title--main">GALLERY</h2>
+                <div class="gallery">
+                    <div class="row-2 col-2"><img class="gallery__img" src="img/gallery/scott-webb-176434gallery.png" alt="#" style="padding-bottom: 12px;"></div>
+                    <div class="row-1 col-1"><img class="gallery__img" src="img/gallery/tu-tram-pham-202263gallery.jpg" alt="#"></div>
+                    <div class="row-1 col-1"><img class="gallery__img" src="img/gallery/photos-13323p6Bdc0uhr8Bqgallery.png" alt="#"></div>
+                    <div class="row-1 col-1"><img class="gallery__img" src="img/gallery/fuse-brussels-169216gallery.png" alt="#"></div>
+                    <div class="row-1 col-1"><img class="gallery__img" src="img/gallery/echo-grid-156713gallery.png" alt="#"></div>
+                    </div>
+                </div>
+                <a href="#" class="btn">SEE MORE</a>
+            </div>
+        </section>
+        <section class="section map" id="map"></section>
+    </main>
+    <footer class="section section--bg" id="footer" style="background-image: url(img/footerbg.jpg);">
+        <div class="container">
+            <div class="footer">
+                <a href="#" class="logo"><img src="img/Logo.png" alt="logo"></a>
+                <ul class="nav__socials">
+                    <li class="socials__item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="socials__item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="socials__item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="copyright">Copyrights © 2017 Monticello &emsp;|&emsp; Made with <i class="fas fa-heart"></i> by Ga Huy</div>
+            <div class="submitwindow">
+                <h2 class="section__title section__title--main">get in touch</h2>
+                <div class="wrap">
+                    <div class="contact wrap__item">
+                        <div class="contact__item"><i class="fas fa-map-marker-alt"></i>&emsp;91 Nolan Extensions Suite 670</div>
+                        <div class="contact__item"><i class="fas fa-phone-alt"></i>&emsp;+001 356-868-2454</div>
+                        <div class="contact__item"><i class="fas fa-envelope-open"></i>&emsp;gahuy93@gmail.com</div>
+                        <div class="contact__item"><i class="far fa-clock"></i>&emsp;From 07:05AM to 19:30PM</div>
+                    </div>
+                    <form class="subscribe__form wrap__item" action="#" method="POST">
+                        <input class="subscribe__input" type="text" name="name" id="name" placeholder="Name" required>
+                        <input class="subscribe__input" type="email" name="email" id="email" placeholder="Email" required>
+                        <button type="submit" class="btn">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCub7pKRDZju62_aRtGlmMtl-T1LBthZL4&callback=initMap"
+    async defer></script>
+</body>
+</html>

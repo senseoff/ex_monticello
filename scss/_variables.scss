@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap%27');
+@font-face {
+	font-family: 'Gotham Book';
+	src: url(../font/gothambook.otf);
+}
+@font-face {
+	font-family: 'Gotham Medium';
+	src: url(../font/gothammedium.otf);
+}
+@font-face {
+	font-family: 'Gotham Bold';
+	src: url(../font/gothambold.otf);
+}
+
+
+$dark-blue: #2c4058;
+$white: #ffffff;
+
+
+$gb-font: 'Gotham Book', sans-serif;
+$gm-font: 'Gotham Medium', sans-serif;
+$gbo-font: 'Gotham Bold', sans-serif;
+$os-font: 'Open Sans', sans-serif;
